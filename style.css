@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F9F5ED;
+    box-sizing: border-box; /*re-search*/
+}
+
+nav {
+    padding: 20px 10% ;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%; /* or use gap in nav ul*/
+    font-weight: 700 ;
+}
+
+/* CSS for Main Section  */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.left-main{
+    width: 40%;
+}
+
+.left-main h1{
+    font-size: 60px;
+}
+
+.left-main p{
+    margin: 5% 0;
+}
+
+.left-main button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3B855B;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+.right-main{
+    width: 60%;
+    padding-left: 10%;
+}
+
+.right-main div img{
+    margin: 1%;
+}
